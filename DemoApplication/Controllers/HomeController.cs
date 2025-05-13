@@ -28,5 +28,12 @@ namespace DemoApplication.Controllers
 
             return View();
         }
+
+        public ActionResult About1()
+        {
+            ViewBag.Message = "Your app description page.";
+
+            return View();
+        }
     }
 }
