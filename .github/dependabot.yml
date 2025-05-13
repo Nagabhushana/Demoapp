@@ -4,7 +4,7 @@ updates:
     directory: /DemoApp/DemoApplication/
     schedule:
       interval: daily
-      time: '12:36'
+      time: '12:43'
       timezone: Asia/Kolkata
     target-branch: main
     open-pull-requests-limit: 5
