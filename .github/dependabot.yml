@@ -1,7 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: nuget
-    directory: /DemoApp/DemoApplication
+    directory: /DemoApp/DemoApplication/
     schedule:
       interval: daily
       time: '12:36'
