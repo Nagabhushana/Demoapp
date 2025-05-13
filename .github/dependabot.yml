@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: "nuget"
+    directory: "Demoapp/DemoApplication/" # or sub-folder containing your .csproj
+    schedule:
+  interval: daily
+  time: "12:25"
+  timezone: "Asia/Kolkata"
+    target-branch: "main"
+    open-pull-requests-limit: 5
+    allow:
+      - dependency-type: "direct"
+    ignore:
+      - dependency-name: "Microsoft.Extensions.*"
+        versions: ["<7.0.0"]
